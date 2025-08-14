@@ -1,0 +1,9 @@
+{
+  "name": "transaction_reliability",
+  "description": "Monitor transaction success rates, latencies, and anomalies.",
+  "enabled": true,
+  "frontend": {
+    "entry": "src/plugins/transaction_reliability/frontend.tsx",
+    "routes": ["/plugins/transaction_reliability"]
+  }
+}

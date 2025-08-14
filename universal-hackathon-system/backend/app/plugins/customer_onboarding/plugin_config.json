@@ -1,0 +1,9 @@
+{
+  "name": "customer_onboarding",
+  "description": "Track customer onboarding steps, KYC verification, and sentiment.",
+  "enabled": true,
+  "frontend": {
+    "entry": "src/plugins/customer_onboarding/frontend.tsx",
+    "routes": ["/plugins/customer_onboarding"]
+  }
+}
